@@ -8,8 +8,5 @@ cd "$APP_DIR"
 git fetch origin
 git reset --hard origin/main
 
-docker compose pull || true
-docker compose up -d --build
-
-docker compose ps
-
+docker compose -f docker-compose.yml up -d --build
+docker compose -f docker-compose.yml ps

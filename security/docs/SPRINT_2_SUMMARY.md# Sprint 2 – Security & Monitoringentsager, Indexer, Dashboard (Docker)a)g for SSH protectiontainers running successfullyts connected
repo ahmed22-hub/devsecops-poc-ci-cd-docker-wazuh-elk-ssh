@@ -1,0 +1,19 @@
+# Sprint 2 – Security & Monitoring
+
+## Components
+- Wazuh Manager, Indexer, Dashboard (Docker)
+- Elastic Stack (Elasticsearch, Kibana)
+- Filebeat for log shipping
+- UFW firewall
+- Fail2ban for SSH protection
+
+## Validation
+- Containers running successfully
+- Wazuh agents connected
+- Security alerts generated and visible
+- Logs indexed in Elasticsearch
+
+## Outcome
+The platform successfully detects malicious activity and provides centralized
+security monitoring and alerting.
+
